@@ -1,7 +1,8 @@
 def f_G(G, m1, m2, r):
-    return G*m1*m2*(r**-2)
+    return G * m1 * m2 * (r**-2)
 
-G = 6.67408 * 10**(-11)
+
+G = 6.67408 * 10 ** (-11)
 m_M = 7.34767309 * 10**22
 m_H = 80
 
@@ -18,5 +19,5 @@ print("Min: ", min_force)
 print("Max: ", max_force)
 print("Diff: ", diff_force)
 print("Diff in kg: ", diff_kg)
-print("Diff in mg: ", diff_kg*10**6)
+print("Diff in mg: ", diff_kg * 10**6)
 print("See https://www.timeanddate.com/astronomy/moon/distance.html")
